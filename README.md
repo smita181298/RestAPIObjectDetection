@@ -5,4 +5,4 @@ and gives output in the form of a dictionary containing frequency/count of diffe
 in the requested image.
 
 Angular HTTP application is taken from another repository named as "Angular HTTP Quickstart Guide" to create Rest API.
-Faster_RCNN pretrained mmodel is used for object detection which is slow but accurate.
+Faster_RCNN pretrained model is used for object detection which is slow but accurate.
