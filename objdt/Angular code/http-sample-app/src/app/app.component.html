@@ -1,0 +1,23 @@
+ 	
+
+ 	<div  style="font-family: Cursive; margin-top: 30px;font-weight: bolder;text-align: center;font-size: 30px">Object Detection</div>
+
+<div class= 'card' style="text-align: center;">
+	 <form >
+	 		<label style="font:serif;">Choose a File:</label>
+
+			<input id="myForm" type="file" (change)="httpPostExample($event)"name="file" />
+	</form>
+<img style="margin-top:50px;max-width: 100%;max-height: 100%;" *ngIf = "variable!==0" [src]="imageSrc " alt="your image" />
+
+
+	<div style="margin-top: 50px;">
+		<div *ngIf = "gettingit">
+			Loading... Please wait...
+		</div>
+		<div *ngIf = "!gettingit">
+				<pre>{{values|json}}</pre>
+		</div>
+	</div>
+</div>
+    
